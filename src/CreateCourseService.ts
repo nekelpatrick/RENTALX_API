@@ -8,9 +8,9 @@ interface Course {
 
 
 class CreateCourseService {
- execute({duration, educator, name}: Course) {
-  console.log(name, duration, educator)
- }
+	execute({duration, educator, name}: Course) {
+		console.log(name, duration, educator);
+	}
 }
 
-export default new(CreateCourseService)
+export default new(CreateCourseService);
